@@ -41,7 +41,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            thomastho18/aula-conversao-temperatura:v1
+            thomastho18/aula-conversao-temperatura:${{github.run_number}}
             thomastho18/aula-conversao-temperatura:latest
         
 
